@@ -1,0 +1,44 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0A0A1A 0%, #1A1A2E 50%, #16213E 100%);
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6C5CE7;
+  border-radius: 4px;
+}
+
+.glass-effect {
+  background: rgba(20, 20, 40, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #6C5CE7 0%, #00B894 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
